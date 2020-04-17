@@ -1,0 +1,18 @@
+<mat-radio-group
+    aria-label="{ Select a language | translate }"
+    (change)="setLanguage($event.value)">
+    <mat-radio-button
+    *ngFor="let culture of cultures"
+    [value]="culture.isoCode">
+        {{ culture.name }}
+    </mat-radio-button>
+</mat-radio-group>
+
+<mlb-parking-widget #widget [vendor]="vendor" (buying)="addToCart($event)"></mlb-parking-widget>
+
+<h2>Shopping cart</h2>
+<mat-list>
+    <mat-list-item *ngFor="let item of items">
+        {{ item.name }}
+    </mat-list-item>
+</mat-list>

@@ -1,0 +1,377 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppComponent should create the application, and add an item to the cart 1`] = `
+<app-root
+  addToCart={[Function Function]}
+  items={[Function Array]}
+  title={[Function String]}
+  vendor={[Function Object]}
+  widget={[Function WidgetComponent]}
+>
+  <mlb-parking-widget
+    _nghost-a-c0=""
+    ng-reflect-vendor="[object Object]"
+  >
+    <mat-card
+      _ngcontent-a-c0=""
+      class="mat-card"
+    >
+      <mat-card-title
+        _ngcontent-a-c0=""
+        class="mat-card-title"
+      >
+        Test Vendor
+      </mat-card-title>
+      <mat-card-subtitle
+        _ngcontent-a-c0=""
+        class="mat-card-subtitle"
+      >
+        This is a test vendor
+      </mat-card-subtitle>
+      <mat-card-content
+        _ngcontent-a-c0=""
+        class="mat-card-content"
+      >
+        <mat-list
+          _ngcontent-a-c0=""
+          class="mat-list mat-list-base"
+          role="list"
+        >
+          
+          <mat-list-item
+            _ngcontent-a-c0=""
+            class="mat-list-item"
+            role="listitem"
+          >
+            <div
+              class="mat-list-item-content"
+            >
+              <div
+                class="mat-list-item-ripple mat-ripple"
+                mat-ripple=""
+                ng-reflect-disabled="true"
+                ng-reflect-trigger="[object HTMLUnknownElement]"
+              />
+              <div
+                class="mat-list-text"
+              />
+              Feature 1 
+            </div>
+          </mat-list-item>
+          <mat-list-item
+            _ngcontent-a-c0=""
+            class="mat-list-item"
+            role="listitem"
+          >
+            <div
+              class="mat-list-item-content"
+            >
+              <div
+                class="mat-list-item-ripple mat-ripple"
+                mat-ripple=""
+                ng-reflect-disabled="true"
+                ng-reflect-trigger="[object HTMLUnknownElement]"
+              />
+              <div
+                class="mat-list-text"
+              />
+              Feature 2 
+            </div>
+          </mat-list-item>
+          <mat-list-item
+            _ngcontent-a-c0=""
+            class="mat-list-item"
+            role="listitem"
+          >
+            <div
+              class="mat-list-item-content"
+            >
+              <div
+                class="mat-list-item-ripple mat-ripple"
+                mat-ripple=""
+                ng-reflect-disabled="true"
+                ng-reflect-trigger="[object HTMLUnknownElement]"
+              />
+              <div
+                class="mat-list-text"
+              />
+              Feature 3 
+            </div>
+          </mat-list-item>
+        </mat-list>
+        <mat-divider
+          _ngcontent-a-c0=""
+          aria-orientation="horizontal"
+          class="mat-divider mat-divider-horizontal"
+          role="separator"
+        />
+        <div
+          _ngcontent-a-c0=""
+          fxlayout.gt-xs="row"
+          fxlayout.lt-sm="column"
+          fxlayoutalign="space-between"
+          ng-reflect-fx-layout-align="space-between"
+          ng-reflect-fx-layout.gt-xs="row"
+          ng-reflect-fx-layout.lt-sm="column"
+          style="align-content: stretch; align-items: stretch; box-sizing: border-box; display: flex; flex-direction: row; justify-content: space-between;"
+        >
+          
+          <div
+            _ngcontent-a-c0=""
+          >
+             Slot 1 
+            <button
+              _ngcontent-a-c0=""
+              class="mat-stroked-button mat-button-base"
+              mat-stroked-button=""
+            >
+              <span
+                class="mat-button-wrapper"
+              >
+                Add to cart
+              </span>
+              <div
+                class="mat-button-ripple mat-ripple"
+                matripple=""
+                ng-reflect-centered="false"
+                ng-reflect-disabled="false"
+                ng-reflect-trigger="[object HTMLButtonElement]"
+              />
+              <div
+                class="mat-button-focus-overlay"
+              />
+            </button>
+            
+            <button
+              _ngcontent-a-c0=""
+              class="mat-stroked-button mat-button-base"
+              mat-stroked-button=""
+            >
+              <span
+                class="mat-button-wrapper"
+              >
+                Expand
+              </span>
+              <div
+                class="mat-button-ripple mat-ripple"
+                matripple=""
+                ng-reflect-centered="false"
+                ng-reflect-disabled="false"
+                ng-reflect-trigger="[object HTMLButtonElement]"
+              />
+              <div
+                class="mat-button-focus-overlay"
+              />
+            </button>
+            
+            
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </mlb-parking-widget><h2>
+    Shopping cart
+  </h2><mat-list
+    class="mat-list mat-list-base"
+  >
+    
+  </mat-list>
+</app-root>
+`;
+
+exports[`AppComponent should create the application, and add an item to the cart 2`] = `
+<app-root
+  addToCart={[Function Function]}
+  items={[Function Array]}
+  title={[Function String]}
+  vendor={[Function Object]}
+  widget={[Function WidgetComponent]}
+>
+  <mlb-parking-widget
+    _nghost-a-c0=""
+    ng-reflect-vendor="[object Object]"
+  >
+    <mat-card
+      _ngcontent-a-c0=""
+      class="mat-card"
+    >
+      <mat-card-title
+        _ngcontent-a-c0=""
+        class="mat-card-title"
+      >
+        Test Vendor
+      </mat-card-title>
+      <mat-card-subtitle
+        _ngcontent-a-c0=""
+        class="mat-card-subtitle"
+      >
+        This is a test vendor
+      </mat-card-subtitle>
+      <mat-card-content
+        _ngcontent-a-c0=""
+        class="mat-card-content"
+      >
+        <mat-list
+          _ngcontent-a-c0=""
+          class="mat-list mat-list-base"
+          role="list"
+        >
+          
+          <mat-list-item
+            _ngcontent-a-c0=""
+            class="mat-list-item"
+            role="listitem"
+          >
+            <div
+              class="mat-list-item-content"
+            >
+              <div
+                class="mat-list-item-ripple mat-ripple"
+                mat-ripple=""
+                ng-reflect-disabled="true"
+                ng-reflect-trigger="[object HTMLUnknownElement]"
+              />
+              <div
+                class="mat-list-text"
+              />
+              Feature 1 
+            </div>
+          </mat-list-item>
+          <mat-list-item
+            _ngcontent-a-c0=""
+            class="mat-list-item"
+            role="listitem"
+          >
+            <div
+              class="mat-list-item-content"
+            >
+              <div
+                class="mat-list-item-ripple mat-ripple"
+                mat-ripple=""
+                ng-reflect-disabled="true"
+                ng-reflect-trigger="[object HTMLUnknownElement]"
+              />
+              <div
+                class="mat-list-text"
+              />
+              Feature 2 
+            </div>
+          </mat-list-item>
+          <mat-list-item
+            _ngcontent-a-c0=""
+            class="mat-list-item"
+            role="listitem"
+          >
+            <div
+              class="mat-list-item-content"
+            >
+              <div
+                class="mat-list-item-ripple mat-ripple"
+                mat-ripple=""
+                ng-reflect-disabled="true"
+                ng-reflect-trigger="[object HTMLUnknownElement]"
+              />
+              <div
+                class="mat-list-text"
+              />
+              Feature 3 
+            </div>
+          </mat-list-item>
+        </mat-list>
+        <mat-divider
+          _ngcontent-a-c0=""
+          aria-orientation="horizontal"
+          class="mat-divider mat-divider-horizontal"
+          role="separator"
+        />
+        <div
+          _ngcontent-a-c0=""
+          fxlayout.gt-xs="row"
+          fxlayout.lt-sm="column"
+          fxlayoutalign="space-between"
+          ng-reflect-fx-layout-align="space-between"
+          ng-reflect-fx-layout.gt-xs="row"
+          ng-reflect-fx-layout.lt-sm="column"
+          style="align-content: stretch; align-items: stretch; box-sizing: border-box; display: flex; flex-direction: row; justify-content: space-between;"
+        >
+          
+          <div
+            _ngcontent-a-c0=""
+          >
+             Slot 1 
+            <button
+              _ngcontent-a-c0=""
+              class="mat-stroked-button mat-button-base"
+              mat-stroked-button=""
+            >
+              <span
+                class="mat-button-wrapper"
+              >
+                Add to cart
+              </span>
+              <div
+                class="mat-button-ripple mat-ripple"
+                matripple=""
+                ng-reflect-centered="false"
+                ng-reflect-disabled="false"
+                ng-reflect-trigger="[object HTMLButtonElement]"
+              />
+              <div
+                class="mat-button-focus-overlay"
+              />
+            </button>
+            
+            <button
+              _ngcontent-a-c0=""
+              class="mat-stroked-button mat-button-base"
+              mat-stroked-button=""
+            >
+              <span
+                class="mat-button-wrapper"
+              >
+                Expand
+              </span>
+              <div
+                class="mat-button-ripple mat-ripple"
+                matripple=""
+                ng-reflect-centered="false"
+                ng-reflect-disabled="false"
+                ng-reflect-trigger="[object HTMLButtonElement]"
+              />
+              <div
+                class="mat-button-focus-overlay"
+              />
+            </button>
+            
+            
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </mlb-parking-widget><h2>
+    Shopping cart
+  </h2><mat-list
+    class="mat-list mat-list-base"
+  >
+    
+    <mat-list-item
+      class="mat-list-item"
+    >
+      <div
+        class="mat-list-item-content"
+      >
+        <div
+          class="mat-list-item-ripple mat-ripple"
+          mat-ripple=""
+          ng-reflect-disabled="true"
+          ng-reflect-trigger="[object HTMLUnknownElement]"
+        />
+        <div
+          class="mat-list-text"
+        />
+         Slot 1 
+      </div>
+    </mat-list-item>
+  </mat-list>
+</app-root>
+`;
