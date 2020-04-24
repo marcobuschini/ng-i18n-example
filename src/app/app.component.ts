@@ -34,17 +34,11 @@ export class AppComponent implements OnInit, OnDestroy {
   public constructor(public translate: TranslateService, private http: HttpClient) {
     this.translate.addCulture(
       { isoCode: 'en_US', name: 'English (US)'} as Culture,
-      {
-        culture: { isoCode: 'en_US', name: 'English (US)'} as Culture,
-        translations: this.http.get('assets/widget/i18n/en-US.js')
-      } as Translations
+      { translations: this.http.get('assets/widget/i18n/en-US.js') } as Translations
     );
     this.translate.addCulture(
       { isoCode: 'it_IT', name: 'Italiano (Italia)'} as Culture,
-      {
-        culture: { isoCode: 'it_IT', name: 'Italiano (Italia)'} as Culture,
-        translations: this.http.get('assets/widget/i18n/it-IT.js')
-      } as Translations
+      { translations: this.http.get('assets/widget/i18n/it-IT.js') } as Translations
     );
   }
 
