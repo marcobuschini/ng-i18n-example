@@ -1,8 +1,8 @@
 import { Component, ViewChild, OnInit, OnDestroy } from '@angular/core';
 
 import { TranslateService, Culture, Translations } from 'ng-i18n';
-import { of, Subscription } from 'rxjs';
-import { HttpClient } from '@angular/common/http';
+import { Subscription } from 'rxjs';
+import fetchInject from 'fetch-inject';
 
 import { Feature, Vendor, ParkingSlot } from 'widget';
 
@@ -31,22 +31,28 @@ export class AppComponent implements OnInit, OnDestroy {
 
   private culture$: Subscription;
 
-  public constructor(public translate: TranslateService, private http: HttpClient) {
+  public constructor(public translate: TranslateService) {
+  }
+
+  public async ngOnInit() {
+    const [en, it] = await fetchInject(['assets/widget/i18n/en-US.js', 'assets/widget/i18n/it-IT.js']);
+    const enUs = new Function(en.text);
+    const enTranslation = new Translations();
+    const itIt = new Function(it.text);
+    const itTranslation = new Translations();
     this.translate.addCulture(
-      { isoCode: 'en_US', name: 'English (US)'} as Culture,
-      { translations: this.http.get('assets/widget/i18n/en-US.js') } as Translations
+      { isoCode: 'en_US', name: 'English (United States)'} as Culture,
+      { translations: enUs().en_US } as Translations
     );
     this.translate.addCulture(
       { isoCode: 'it_IT', name: 'Italiano (Italia)'} as Culture,
-      { translations: this.http.get('assets/widget/i18n/it-IT.js') } as Translations
+      { translations: itIt().it_IT } as Translations
     );
-  }
 
-  public ngOnInit() {
     this.culture$ = this.translate.getAvailableCultures().subscribe(
-      success => {
-        this.cultures = Array.from(success);
-        this.translate.setCulture(this.cultures[0]);
+      cultures => {
+        const cs = Array.from(cultures);
+        this.translate.setCulture(cs[0]);
         this.widget.vendor = this.vendor;
       }
     );
